@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obsnews/pages/cubit/theme_cubit.dart';
+import 'package:obsnews/pages/view/app/cubit/theme_cubit.dart';
 import 'package:obsnews/pages/view/counter/counter_view.dart';
 
 class AppView extends StatelessWidget {
