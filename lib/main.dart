@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:get/get.dart';
 import 'package:obsnews/bloc_obs.dart';
 import 'package:obsnews/pages/view/counter/bloc/counter_bloc.dart';
 import 'package:obsnews/pages/view/login/bloc/login_bloc.dart';
@@ -25,7 +26,7 @@ class App extends StatelessWidget {
       // create: (_) => ThemeCubit(),
       child: BlocBuilder<ThemeCubit, ThemeData>(
         builder: (_, theme) {
-          return MaterialApp(
+          return GetMaterialApp(
             debugShowCheckedModeBanner: false,
             theme: theme,
             home: const LoginView(),

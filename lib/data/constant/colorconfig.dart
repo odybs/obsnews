@@ -51,8 +51,27 @@ class AppColorConfig {
   static Color fuzzyWuzzy = const Color(0xFFce6e6f);
   static const Color subtitle = Color.fromARGB(255, 86, 86, 86);
   static Color black = const Color(0xFF000000);
+  static Color blackblur = const Color(0x99444444);
   static Color bondiBlue = const Color(0xFF0093ba);
   static Color grey = Colors.grey;
   static Color greyblur = const Color(0xFFe7f9fd);
-  static Color tes = const Color.fromARGB(167, 148, 216, 255);
+  static Color transparent = const Color.fromARGB(0, 231, 249, 253);
+  static Color blue = const Color.fromARGB(167, 148, 216, 255);
+
+  static MaterialColor lightgrey = const MaterialColor(
+    _lightgrey,
+    <int, Color>{
+      50: Color(0xFFe7f9fd),
+      100: Color(0xFFe7f9fd),
+      200: Color(0xFFe7f9fd),
+      300: Color(0xFFe7f9fd),
+      400: Color(0xFFe7f9fd),
+      500: Color(0xFFe7f9fd),
+      600: Color(0xFFe7f9fd),
+      700: Color(0xFFe7f9fd),
+      800: Color(0xFFe7f9fd),
+      900: Color(0xFFe7f9fd),
+    },
+  );
+  static const int _lightgrey = 0xFFe7f9fd;
 }
