@@ -162,6 +162,7 @@ class HomeView extends StatelessWidget {
                             height: Get.height * 0.15,
                             decoration: BoxDecoration(
                               color: AppColorConfig.white,
+                              borderRadius: BorderRadius.circular(10),
                             ),
                             child: ClipRRect(
                               borderRadius: BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10)),
@@ -246,6 +247,7 @@ class HomeView extends StatelessWidget {
                             width: Get.width * 0.9,
                             decoration: BoxDecoration(
                               color: AppColorConfig.white,
+                              borderRadius: BorderRadius.circular(10),
                             ),
                             child: ClipRRect(
                               borderRadius: BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10)),
